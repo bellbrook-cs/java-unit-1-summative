@@ -1,10 +1,70 @@
-# Template Assignment
+# Unit 1 Summative Lab
 
 ## Problem Statement
 
+You have the full period to complete the following assignment, this is meant to be a summative lab and you cannot get help from peers. You may ask an instructor questions about what the expectations are, however they will not answer any questions about how to to do something. You are allowed to access notes, and the textbook as needed.
+
+You must write a program that meets the following requirements.
+
+You must use remarks/comments to label your solution to each task below.
+
+1. Use 1 line of code to print `"Part 1"` to the console.
+2. Uses 1 line of code to declare 3 variables of type `String`.
+3. On seperate lines, initialize the 3 variables you just declared to have 3 different Strings in them.
+  - The Strings should all be at least `3` characters long.
+  - The Strings should all be different lengths.
+4. Add code to your program that will display all 3 Strings on the same line.
+  - You may not use any String literals to do this.
+5. Declare and initialize 3 variables that will hold the length of each string.
+  - You should use the most appropriate variable type.
+6. Declare a variable named `average` of type `double`. Do not initialize it.
+7. On a seperate line, use the assignment operator to set average to the average length of the 3 Strings from step 2.
+8. Display the average length of the strings to the screen.
+  - You should display the exact value of the average, including any decimal.
+  - You should display some text explaining what the number is like this:
+  - `The average length of the 3 strings is: 5.0`
+9. Use 1 line of code to print "Part 2" to the console.
+10. Declare 3 ints named shortBase, longBase, and height. Assign different non-negative values to them.
+11. Assuming the variables shortBase, longBase, and height describe the properties of a trapezoid. Display the area of the trapezoid.
+  - You should display the exact area, including any decimals.
+  - You should display some text that describes the number like this:
+  - `The area of the trapezoid is: 4.0`
+12. Declare a variable named `sum` of type `int`. Initialize it to have a value of 0.
+13. Use compound assignment operators to find the sum of the length of all Strings from step 2.
+  - You should be using the same compound assignment operator 3 times, on 3 different lines.
+14. Display the value of the variable sum in the console.
+  - You should display some text that describes the number like this:
+  - `The value of sum is: 12`
+15. Use 1 line of code to display your name on it's own line.
+
 ## Input Description
 
+I should be able to modify the values you initialized in step 3 and step 10. After making these changes the output of your program should adjust automatically.
+
 ## Sample Input/Output
+
+If I set the value of the 3 strings to the following:
+
+- "Hello John"
+- "Hello World"
+- "Hey World"
+
+And I set shortBase, longBase, and height to the following:
+
+- shortBase: 10
+- longBase: 11
+- height: 5
+
+An example output would be:
+
+```
+Part 1
+The average length of the 3 strings is 10.0
+Part 2
+The area of the trapezoid is: 52.5
+The value of sum is: 30
+Mr. Mankin
+```
 
 ## Submission
 
@@ -19,46 +79,7 @@ Please submit the following to google classroom:
 
 ## Rubric
 
-<table>
-<tbody>
-  <tr>
-    <td valign="top"><b>Coded Solution</b><br><br>The coded solutions works correctly with no syntax, logic, or run-time errors.</td>
-    <td valign="top"><b>8pts</b><br><br>* The submitted code compiles successfully. <br><br>* The submitted program is free of run-time and logic errors. <br><br>* The submitted program returns the anticipated output for all input tested.
-</td>
-    <td valign="top"><b>4pts</b><br><br>* The submitted program compiles successfully. <br><br>* The submitted program includes run-time and/or logic errors that result in correct output. <br><br>* The submitted program returns the anticipated output for most (but not all) input tested.
-</td>
-    <td valign="top"><b>2pts</b><br><br>* A program is submitted but it fails to compile. <br><br><b><em>or</em></b> <br><br>* The submitted program compiles correctly. <br><br>* The submitted program includes run-time and/or logic errors that result in incorrect output. <br><br>* The submitted program returns the anticipated output for less than half of the input tested.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Target Concepts</b><br><br>The program effectively uses the intended target concepts.</td>
-    <td valign="top"><b>8pts</b><br><br>* The program effectively uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation.
-</td>
-    <td valign="top"><b>4pts</b><br><br>* The program incorrectly uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation. <br><br>* Moderate effort to use the target concepts is evident.
-</td>
-    <td valign="top"><b>2pts</b><br><br>* The program incorrectly uses the target concepts being discussed in class or outlined within the project specifications for the given problem situation. <br><br>* Minimal effort to use the target concepts is evident.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b><br><br> * No attempt was made to use the target concepts being discussed in class or outlined within the project specifications for the given problem situation.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>User Interface</b><br><br>The program produces output that is easy for the user to read.</td>
-    <td valign="top"><b>2pts</b><br><br>* Output demonstrates appropriate spacing for best user readability. <br><br>* Output contains no spelling or grammatical errors.
-</td>
-    <td valign="top"><b>1pts</b><br><br>* Output includes minor spacing problems which results in information which is inconsistent or confusing. <br><br>* Output contains minor spelling or grammatical errors.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b> <br><br>* Output includes major spacing problems which is severely inconsistent or confusing. <br><br>* Output contains major spelling or grammatical errors.
-</td>
-  </tr>
-  <tr>
-    <td valign="top"><b>Readability of Code</b><br><br>The program code is documented and formatted for human readability.</td>
-    <td valign="top"><b>2pts</b><br><br>* The submitted solution includes the required header documentation (name, date, purpose). <br><br>* Header documentation includes appropriate modification comments if the submitted solution is a modification to a previously submitted program. <br><br>* Code is properly formatted. Open and close brackets are properly aligned and code within the brackets is appropriately indented. <br><br>* All variables are self-documented (i.e. named in such a way that the name indicates the purpose of the variable).
-</td>
-    <td valign="top"><b>1pts</b><br><br>* The submitted solution includes the some, but not ALL, of the required header documentation (name, date, purpose). <br><br>* In the case of modifications to a previously submitted program, modification comments are missing or incomplete. <br><br>* Code is unformatted and difficult to follow. Brackets aren't aligned and/or code within brackets is not indented. <br><br>* Numerous variable names are ambiguous (i.e. x) and do not indicate the purpose of the variable.
-</td>
-    <td valign="top"><b>0pts</b><br><br>* A program solution is not submitted. <br><br><b><em>or</em></b> <br><br>* The submitted solution includes no documentation of any kind.</td>
-  </tr>
-</tbody>
-</table>
+20 Points total
+- 1 point for each numbered step above
+- 2 points for filling out the comments at the top of your program.
+- 3 points for labeling each step in your code clearly with comments.
